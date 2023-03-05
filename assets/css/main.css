@@ -3791,26 +3791,12 @@ input, select, textarea {
 
 		/* Custom styles */
 
-		.features {
-			max-width: 100%;
-			margin-inline: auto;
-			gap: 2em;
+		.featured-books {
+			margin: 0;
+			gap: 1.875em;
 		}
 
-		.feature-item {
-
+		.feature-card {
+			max-width: 325px;
 		}
 
-		.grid {
-			display: grid;
-		}
-
-		.book-list-content {
-			grid-auto-flow: row;
-			grid-template-rows: 100px 1fr min-content;
-			gap: 1em;
-		}
-
-		.book-img {
-			width: 100%;
-		}
