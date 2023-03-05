@@ -3789,14 +3789,33 @@ input, select, textarea {
 		}
 
 
-		/* Custom styles */
+	/* Custom styles */
 
-		.featured-books {
-			margin: 0;
-			gap: 1.875em;
+	.featured-essays,
+	.featured-books {
+		margin: 0;
+		gap: 1.875em;
+	}
+
+	.essay-card > h3 {
+		margin-bottom: 0.5em;
+	}
+
+	.essay-card > p {
+		margin-bottom: 1em;
+	}
+
+	.book-card {
+		max-width: 325px;
+	}
+
+	.works-title {
+		font-style: italic;
+	}
+
+	@media (min-width: 1681px) {
+		.essay-desc,
+		.book-card p {
+			font-size: 1.25rem;
 		}
-
-		.feature-card {
-			max-width: 325px;
-		}
-
+	}
