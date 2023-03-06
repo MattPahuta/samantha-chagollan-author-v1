@@ -3811,8 +3811,9 @@ input, select, textarea {
 
 	.featured-essays,
 	.featured-books {
+		max-width: 100%;
 		margin: 0;
-		gap: 1.875em;
+		gap: 1.5em;
 	}
 
 	.essay-card > h3 {
