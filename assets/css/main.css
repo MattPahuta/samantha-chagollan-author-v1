@@ -3000,7 +3000,7 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
+			padding: 0.45em;
 			border-radius: 100%;
 			border: solid 1px;
 		}
@@ -3790,6 +3790,24 @@ input, select, textarea {
 
 
 	/* Custom styles */
+
+	.avatar {
+		border: none !important;
+		/* background-color: #5f4d93; */
+		background-image: linear-gradient(
+			145deg,
+			hsl(255deg 31% 44%) 0%,
+			hsl(271deg 30% 45%) 21%,
+			hsl(287deg 29% 45%) 30%,
+			hsl(303deg 28% 46%) 39%,
+			hsl(316deg 31% 50%) 46%,
+			hsl(325deg 38% 54%) 54%,
+			hsl(333deg 45% 57%) 61%,
+			hsl(340deg 52% 61%) 69%,
+			hsl(347deg 59% 64%) 79%,
+			hsl(353deg 66% 68%) 100%
+		);
+	}
 
 	.featured-essays,
 	.featured-books {
