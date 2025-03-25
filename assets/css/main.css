@@ -187,28 +187,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  /* background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-
-
-		background-image: linear-gradient(
-			145deg,
-			hsl(255deg 31% 44%) 0%,
-			hsl(271deg 31% 44%) 21%,
-			hsl(287deg 31% 43%) 30%,
-			hsl(303deg 31% 43%) 39%,
-			hsl(316deg 35% 46%) 46%,
-			hsl(325deg 37% 48%) 54%,
-			hsl(333deg 40% 51%) 61%,
-			hsl(340deg 44% 53%) 69%,
-			hsl(346deg 48% 55%) 79%,
-			hsl(353deg 51% 58%) 100%
-		); */
-}
-
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
@@ -222,11 +200,8 @@ body.is-preload *:after {
   transition: none !important;
 }
 
-/* Type */
-
 body {
   background-color: #161925;
-  /* color: rgba(255, 255, 255, 0.65); */
   color: #e6e6ea;
 }
 
