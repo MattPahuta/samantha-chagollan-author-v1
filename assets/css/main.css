@@ -2934,16 +2934,15 @@ table.alt tbody tr td {
 }
 
 .features li {
-	width: calc(33.33333% - 2em);
+  width: calc(33.33333% - 2em);
 }
 
 .featured-essays li {
-	width: calc(50% - 2em);
+  width: calc(50% - 2em);
 }
 
 .featured-books-list li {
-	width: calc(33.33333% - 2em);
-
+  width: calc(33.33333% - 2em);
 }
 
 .features li:nth-child(1),
@@ -3981,12 +3980,11 @@ body.is-preload #header.alt .logo {
 
 .bio-text a,
 .accent-title {
-	font-style: italic;
+  font-style: italic;
 }
 .bio-text a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 /* Featured essays and books sections */
 
@@ -4002,12 +4000,12 @@ body.is-preload #header.alt .logo {
 }
 
 .book-card {
-	gap: 2rem;
+  gap: 2rem;
 }
 
 .card,
 .card-content {
-	padding: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
 }
@@ -4017,11 +4015,11 @@ body.is-preload #header.alt .logo {
 }
 
 .card h3 {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .card .card-content > * + * {
-	margin-top: 0.75rem;
+  margin-top: 0.75rem;
 }
 
 .card .card-content:last-child {
@@ -4029,17 +4027,17 @@ body.is-preload #header.alt .logo {
 }
 
 .card .card-content:nth-last-child(2) {
-	margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .card .card-image {
-	height: 30rem;
+  height: 30rem;
 }
 
 .card .card-image img {
-	object-fit: cover;
-	height: 100%;
-	width: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .card-primary-action::before {
@@ -4050,16 +4048,22 @@ body.is-preload #header.alt .logo {
   cursor: pointer;
   border: 2px solid transparent;
   border-radius: 8px;
-  transition: border-color 200ms;
+  transition: all 200ms;
 }
 
-.card-primary-action:hover::before,
 .card-primary-action:focus::before {
   border-color: #161925;
 }
 
 .card-primary-action:focus {
   outline: none;
+}
+
+.card-primary-action:hover::before {
+  box-shadow: 5px 5px 4px 2px rgba(22, 25, 37, 0.56);
+  -webkit-box-shadow: 5px 5px 4px 2px rgba(22, 25, 37, 0.56);
+  -moz-box-shadow: 5px 5px 4px 2px rgba(22, 25, 37, 0.56);
+  border: none;
 }
 
 .essay-card > h3 {
@@ -4092,4 +4096,36 @@ body.is-preload #header.alt .logo {
   .book-card p {
     font-size: 1.25rem;
   }
+}
+
+/* Socials list */
+.social-list-item {
+  width: 3rem;
+}
+
+.social-button {
+  /* padding: 0.35em; */
+  display: inline-flex;
+  width: 100%;
+  /* height: 100%; */
+}
+
+.social-button__icon {
+  object-fit: cover;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.social-button__icon:hover {
+  opacity: 0.7;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
